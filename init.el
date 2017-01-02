@@ -2,12 +2,7 @@
 ;; This file is loaded by Spacemacs at startup.
 ;; It must be stored in your home directory.
 
-;; C
-(setq c-default-style "linux"
-      c-basic-offset 4)
-
-;; org
-(setq org-log-done 'time)
+(load-file "~/.spacemacs.d/personal.el")
 
 ;; markdown
 (custom-set-variables
